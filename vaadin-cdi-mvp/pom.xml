@@ -1,0 +1,114 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>de.akquinet.engineering</groupId>
+	<artifactId>vaadin-cdi-mvp</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>vaadin-cdi-mvp_view-api</module>
+		<module>vaadin-cdi-mvp_view-impl</module>
+		<module>vaadin-cdi-mvp_war</module>
+		<module>vaadin-cdi-mvp_presenter-api</module>
+		<module>vaadin-cdi-mvp_presenter-impl</module>
+		<module>vaadin-cdi-mvp_model-api</module>
+		<module>vaadin-cdi-mvp_model-impl</module>
+	</modules>
+
+	<properties>
+		<encoding>UTF-8</encoding>
+		<project.build.sourceEncoding>${encoding}</project.build.sourceEncoding>
+
+		<jee.version>6.0</jee.version>
+		<vaadin.version>7.0.2</vaadin.version>
+		<vaadin-cdi.version>1.0-SNAPSHOT</vaadin-cdi.version>
+
+		<maven-compiler-plugin.version>3.1</maven-compiler-plugin.version>
+		<maven-resources-plugin.version>2.6</maven-resources-plugin.version>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>${maven-compiler-plugin.version}</version>
+				<configuration>
+					<encoding>${encoding}</encoding>
+					<source>1.7</source>
+					<target>1.7</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>${maven-resources-plugin.version}</version>
+				<configuration>
+					<encoding>${encoding}</encoding>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>javax</groupId>
+				<artifactId>javaee-api</artifactId>
+				<version>${jee.version}</version>
+				<scope>provided</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.vaadin</groupId>
+				<artifactId>vaadin-server</artifactId>
+				<version>${vaadin.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.vaadin</groupId>
+				<artifactId>vaadin-cdi</artifactId>
+				<version>${vaadin-cdi.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>de.akquinet.engineering</groupId>
+				<artifactId>vaadin-cdi-mvp_view-api</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>de.akquinet.engineering</groupId>
+				<artifactId>vaadin-cdi-mvp_view-impl</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>de.akquinet.engineering</groupId>
+				<artifactId>vaadin-cdi-mvp_presenter-api</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>de.akquinet.engineering</groupId>
+				<artifactId>vaadin-cdi-mvp_presenter-impl</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>de.akquinet.engineering</groupId>
+				<artifactId>vaadin-cdi-mvp_model-api</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+			<dependency>
+				<groupId>de.akquinet.engineering</groupId>
+				<artifactId>vaadin-cdi-mvp_model-impl</artifactId>
+				<version>0.0.1-SNAPSHOT</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<dependencies>
+		<dependency>
+			<groupId>javax</groupId>
+			<artifactId>javaee-api</artifactId>
+		</dependency>
+	</dependencies>
+
+</project>

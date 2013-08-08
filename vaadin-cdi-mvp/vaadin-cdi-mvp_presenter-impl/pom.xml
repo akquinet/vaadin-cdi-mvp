@@ -1,0 +1,57 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>de.akquinet.engineering</groupId>
+		<artifactId>vaadin-cdi-mvp</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>vaadin-cdi-mvp_presenter-impl</artifactId>
+
+	<dependencies>
+		<dependency>
+			<groupId>de.akquinet.engineering</groupId>
+			<artifactId>vaadin-cdi-mvp_presenter-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>de.akquinet.engineering</groupId>
+			<artifactId>vaadin-cdi-mvp_model-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.mockito</groupId>
+			<artifactId>mockito-all</artifactId>
+			<version>1.9.5</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.hamcrest</groupId>
+			<artifactId>hamcrest-all</artifactId>
+			<version>1.3</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>de.akquinet.jbosscc</groupId>
+			<artifactId>jbosscc-needle</artifactId>
+			<version>2.2</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- workaround for java.lang.ClassFormatError: Absent Code attribute in method that is not native or abstract in class file, when using javax:javaee-api -->
+		<dependency>
+			<groupId>org.jboss.spec</groupId>
+			<artifactId>jboss-javaee-6.0</artifactId>
+			<version>1.0.0.Final</version>
+			<type>pom</type>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+
+</project>
