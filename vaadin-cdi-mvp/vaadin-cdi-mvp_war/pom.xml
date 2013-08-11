@@ -54,10 +54,6 @@
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
-			<groupId>com.vaadin</groupId>
-			<artifactId>vaadin-cdi</artifactId>
-		</dependency>
-		<dependency>
 			<groupId>de.akquinet.engineering</groupId>
 			<artifactId>vaadin-cdi-mvp_view-api</artifactId>
 		</dependency>
