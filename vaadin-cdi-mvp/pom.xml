@@ -66,11 +66,6 @@
 				<version>${vaadin.version}</version>
 			</dependency>
 			<dependency>
-				<groupId>com.vaadin</groupId>
-				<artifactId>vaadin-cdi</artifactId>
-				<version>${vaadin-cdi.version}</version>
-			</dependency>
-			<dependency>
 				<groupId>de.akquinet.engineering</groupId>
 				<artifactId>vaadin-cdi-mvp_view-api</artifactId>
 				<version>0.0.1-SNAPSHOT</version>
