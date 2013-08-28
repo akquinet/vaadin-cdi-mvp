@@ -32,6 +32,8 @@ public abstract class AbstractContactToolbarPresenterBean implements ContactTool
 	public void init()
 	{
 		this.view.setObserver(this);
+
+		enableButtons(true, false, false);
 	}
 
 	@Override

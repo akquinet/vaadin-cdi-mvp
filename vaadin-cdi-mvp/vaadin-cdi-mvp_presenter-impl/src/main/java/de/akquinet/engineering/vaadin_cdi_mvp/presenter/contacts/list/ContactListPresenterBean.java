@@ -46,6 +46,8 @@ public class ContactListPresenterBean implements ContactListPresenter, ContactLi
 	{
 		this.view.setObserver(this);
 		this.contactModel.addObserver(this);
+		
+		contactModelChanged();
 	}
 
 	@Override
