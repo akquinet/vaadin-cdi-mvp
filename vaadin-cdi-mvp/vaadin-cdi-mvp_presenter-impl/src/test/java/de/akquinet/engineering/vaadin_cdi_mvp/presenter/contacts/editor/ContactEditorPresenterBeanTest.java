@@ -22,7 +22,7 @@ import de.akquinet.jbosscc.needle.junit.NeedleRule;
 /**
  * @author Oliver Damm
  */
-public class ContactEditorPresenterTest
+public class ContactEditorPresenterBeanTest
 {
 
 	@Rule
