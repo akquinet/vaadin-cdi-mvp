@@ -120,6 +120,11 @@ public class ContactEditorViewComponent extends VerticalLayout implements Contac
 		this.textFieldEmail.setEnabled(enabled);
 		this.buttonApply.setEnabled(enabled);
 		this.buttonCancel.setEnabled(enabled);
+		
+		if(enabled)
+		{
+			this.textFieldFirstname.focus();
+		}
 	}
 
 	public void setVisible(boolean visible)
