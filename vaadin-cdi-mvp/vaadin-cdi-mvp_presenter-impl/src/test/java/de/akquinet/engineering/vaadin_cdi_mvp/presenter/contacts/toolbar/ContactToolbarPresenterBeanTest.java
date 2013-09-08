@@ -6,12 +6,12 @@ package de.akquinet.engineering.vaadin_cdi_mvp.presenter.contacts.toolbar;
 
 import javax.inject.Inject;
 
-import net.akquinet.engineering.vaadin_cdi_mvp.view.contacts.toolbar.ContactToolbarView;
 
 import org.junit.Rule;
 import org.junit.Test;
 import org.mockito.Mockito;
 
+import de.akquinet.engineering.vaadin_cdi_mvp.view.contacts.toolbar.ContactToolbarView;
 import de.akquinet.jbosscc.needle.annotation.ObjectUnderTest;
 import de.akquinet.jbosscc.needle.junit.NeedleRule;
 

@@ -10,11 +10,11 @@ import javax.annotation.PostConstruct;
 import javax.enterprise.event.Event;
 import javax.inject.Inject;
 
-import net.akquinet.engineering.vaadin_cdi_mvp.view.contacts.toolbar.ContactToolbarView;
-import net.akquinet.engineering.vaadin_cdi_mvp.view.contacts.toolbar.ContactToolbarViewObserver;
 import de.akquinet.engineering.vaadin_cdi_mvp.events.CreateContactRequestedEvent;
 import de.akquinet.engineering.vaadin_cdi_mvp.events.DeleteContactRequestedEvent;
 import de.akquinet.engineering.vaadin_cdi_mvp.events.EditContactRequestedEvent;
+import de.akquinet.engineering.vaadin_cdi_mvp.view.contacts.toolbar.ContactToolbarView;
+import de.akquinet.engineering.vaadin_cdi_mvp.view.contacts.toolbar.ContactToolbarViewObserver;
 
 /**
  * @author Oliver Damm

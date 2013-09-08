@@ -17,10 +17,10 @@ import de.akquinet.engineering.vaadin_cdi_mvp.events.ContactSelectedEvent;
 import de.akquinet.engineering.vaadin_cdi_mvp.model.contact.Contact;
 import de.akquinet.engineering.vaadin_cdi_mvp.model.contact.ContactModel;
 import de.akquinet.engineering.vaadin_cdi_mvp.model.contact.ContactModelObserver;
+import de.akquinet.engineering.vaadin_cdi_mvp.view.contacts.list.ContactItem;
+import de.akquinet.engineering.vaadin_cdi_mvp.view.contacts.list.ContactListView;
+import de.akquinet.engineering.vaadin_cdi_mvp.view.contacts.list.ContactListViewObserver;
 
-import net.akquinet.engineering.vaadin_cdi_mvp.view.contacts.list.ContactItem;
-import net.akquinet.engineering.vaadin_cdi_mvp.view.contacts.list.ContactListView;
-import net.akquinet.engineering.vaadin_cdi_mvp.view.contacts.list.ContactListViewObserver;
 
 /**
  * @author Oliver Damm

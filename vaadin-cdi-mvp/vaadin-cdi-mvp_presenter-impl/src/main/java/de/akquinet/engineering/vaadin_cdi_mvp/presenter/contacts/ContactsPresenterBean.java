@@ -11,7 +11,6 @@ import javax.enterprise.context.SessionScoped;
 import javax.enterprise.event.Observes;
 import javax.inject.Inject;
 
-import net.akquinet.engineering.vaadin_cdi_mvp.view.contacts.ContactsView;
 import de.akquinet.engineering.vaadin_cdi_mvp.events.ContactEditingCanceled;
 import de.akquinet.engineering.vaadin_cdi_mvp.events.ContactEditingFinished;
 import de.akquinet.engineering.vaadin_cdi_mvp.events.ContactSelectedEvent;
@@ -24,6 +23,7 @@ import de.akquinet.engineering.vaadin_cdi_mvp.presenter.Discriminator;
 import de.akquinet.engineering.vaadin_cdi_mvp.presenter.contacts.editor.ContactEditorPresenter;
 import de.akquinet.engineering.vaadin_cdi_mvp.presenter.contacts.list.ContactListPresenter;
 import de.akquinet.engineering.vaadin_cdi_mvp.presenter.contacts.toolbar.ContactToolbarPresenter;
+import de.akquinet.engineering.vaadin_cdi_mvp.view.contacts.ContactsView;
 
 /**
  * @author Oliver Damm

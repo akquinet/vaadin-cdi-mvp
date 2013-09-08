@@ -7,7 +7,6 @@ package de.akquinet.engineering.vaadin_cdi_mvp.presenter.contacts.editor;
 import javax.enterprise.event.Event;
 import javax.inject.Inject;
 
-import net.akquinet.engineering.vaadin_cdi_mvp.view.contacts.editor.ContactEditorView;
 
 import org.hamcrest.Matchers;
 import org.junit.Rule;
@@ -16,6 +15,7 @@ import org.mockito.Mockito;
 
 import de.akquinet.engineering.vaadin_cdi_mvp.events.ContactEditingFinished;
 import de.akquinet.engineering.vaadin_cdi_mvp.model.contact.ContactModel;
+import de.akquinet.engineering.vaadin_cdi_mvp.view.contacts.editor.ContactEditorView;
 import de.akquinet.jbosscc.needle.annotation.ObjectUnderTest;
 import de.akquinet.jbosscc.needle.junit.NeedleRule;
 

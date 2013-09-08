@@ -9,7 +9,8 @@ import java.io.Serializable;
 import javax.enterprise.context.SessionScoped;
 import javax.inject.Inject;
 
-import net.akquinet.engineering.vaadin_cdi_mvp.view.main.MainView;
+import de.akquinet.engineering.vaadin_cdi_mvp.view.main.MainView;
+
 
 /**
  * @author Oliver Damm

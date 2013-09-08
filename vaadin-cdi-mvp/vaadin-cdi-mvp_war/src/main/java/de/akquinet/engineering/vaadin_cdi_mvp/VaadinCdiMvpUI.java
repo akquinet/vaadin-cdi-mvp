@@ -7,13 +7,13 @@ package de.akquinet.engineering.vaadin_cdi_mvp;
 import javax.enterprise.context.Dependent;
 import javax.inject.Inject;
 
-import net.akquinet.engineering.vaadin_cdi_mvp.view.VaadinView;
 
 import com.vaadin.annotations.PreserveOnRefresh;
 import com.vaadin.server.VaadinRequest;
 import com.vaadin.ui.UI;
 
 import de.akquinet.engineering.vaadin_cdi_mvp.presenter.contacts.ContactsPresenter;
+import de.akquinet.engineering.vaadin_cdi_mvp.view.VaadinView;
 
 /**
  * @author Oliver Damm

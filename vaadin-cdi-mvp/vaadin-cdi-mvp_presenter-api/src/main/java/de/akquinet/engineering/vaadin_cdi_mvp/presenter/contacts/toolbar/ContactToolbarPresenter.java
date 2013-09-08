@@ -4,8 +4,8 @@
  */
 package de.akquinet.engineering.vaadin_cdi_mvp.presenter.contacts.toolbar;
 
-import net.akquinet.engineering.vaadin_cdi_mvp.view.contacts.toolbar.ContactToolbarView;
 import de.akquinet.engineering.vaadin_cdi_mvp.presenter.Presenter;
+import de.akquinet.engineering.vaadin_cdi_mvp.view.contacts.toolbar.ContactToolbarView;
 
 /**
  * @author Oliver Damm

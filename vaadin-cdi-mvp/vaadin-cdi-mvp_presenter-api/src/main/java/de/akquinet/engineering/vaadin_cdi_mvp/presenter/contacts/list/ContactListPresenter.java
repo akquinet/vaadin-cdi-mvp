@@ -4,8 +4,8 @@
  */
 package de.akquinet.engineering.vaadin_cdi_mvp.presenter.contacts.list;
 
-import net.akquinet.engineering.vaadin_cdi_mvp.view.contacts.list.ContactListView;
 import de.akquinet.engineering.vaadin_cdi_mvp.presenter.Presenter;
+import de.akquinet.engineering.vaadin_cdi_mvp.view.contacts.list.ContactListView;
 
 /**
  * @author Oliver Damm
